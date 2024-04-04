@@ -14,6 +14,9 @@
 		6C59F4F12BBE8F1A005A2120 /* Assignment_1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C59F4F02BBE8F1A005A2120 /* Assignment_1Tests.swift */; };
 		6C59F4FB2BBE8F1A005A2120 /* Assignment_1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C59F4FA2BBE8F1A005A2120 /* Assignment_1UITests.swift */; };
 		6C59F4FD2BBE8F1A005A2120 /* Assignment_1UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C59F4FC2BBE8F1A005A2120 /* Assignment_1UITestsLaunchTests.swift */; };
+		6C59F50A2BBE906F005A2120 /* AboutMeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C59F5092BBE906F005A2120 /* AboutMeView.swift */; };
+		6C59F50C2BBE9090005A2120 /* ContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C59F50B2BBE9090005A2120 /* ContactView.swift */; };
+		6C59F5102BBE9192005A2120 /* MyContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C59F50F2BBE9192005A2120 /* MyContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		6C59F4F62BBE8F1A005A2120 /* Assignment-1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Assignment-1UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C59F4FA2BBE8F1A005A2120 /* Assignment_1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assignment_1UITests.swift; sourceTree = "<group>"; };
 		6C59F4FC2BBE8F1A005A2120 /* Assignment_1UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assignment_1UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6C59F5092BBE906F005A2120 /* AboutMeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutMeView.swift; sourceTree = "<group>"; };
+		6C59F50B2BBE9090005A2120 /* ContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactView.swift; sourceTree = "<group>"; };
+		6C59F50F2BBE9192005A2120 /* MyContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +104,9 @@
 				6C59F4E12BBE8F17005A2120 /* ContentView.swift */,
 				6C59F4E32BBE8F19005A2120 /* Assets.xcassets */,
 				6C59F4E52BBE8F19005A2120 /* Preview Content */,
+				6C59F5092BBE906F005A2120 /* AboutMeView.swift */,
+				6C59F50B2BBE9090005A2120 /* ContactView.swift */,
+				6C59F50F2BBE9192005A2120 /* MyContentView.swift */,
 			);
 			path = "Assignment-1";
 			sourceTree = "<group>";
@@ -257,8 +266,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C59F50A2BBE906F005A2120 /* AboutMeView.swift in Sources */,
 				6C59F4E22BBE8F17005A2120 /* ContentView.swift in Sources */,
 				6C59F4E02BBE8F17005A2120 /* Assignment_1App.swift in Sources */,
+				6C59F50C2BBE9090005A2120 /* ContactView.swift in Sources */,
+				6C59F5102BBE9192005A2120 /* MyContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,6 +434,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Assignment-1/Preview Content\"";
+				DEVELOPMENT_TEAM = 8YKLMY2U5P;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -450,6 +463,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Assignment-1/Preview Content\"";
+				DEVELOPMENT_TEAM = 8YKLMY2U5P;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
